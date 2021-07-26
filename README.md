@@ -1,3 +1,14 @@
 # COMP313Assignment1
 
-Developed with Unreal Engine 4
+## Project Name: Zombie Thrillz
+
+Link to Gameplay Video can be found [here](https://youtu.be/IJ8_aUjAF7Q) 
+ 
+### What is the main action in the game
+The main action in my game is the shooting mechanic. This shooting mechanic allows the player to kill the zombies that come towards them as they try and navigate their way through the maze. This is implemented by using the right click to aim and the left click to shoot. The player can shoot from both a hip fire stance and an aimed stance. A smaller mechanic that is a part of the shooting mechanic is reloading. This is done by the player pressing R. There is no animation for this however, I will talk about that in the next section. This reloading mechanic restricts the player and adds a bit of challenge to the game. This challenge keeps the player more engaged and more aware about conserving their ammo. The zombies do drop ammo but there is a chance that the player will run out of ammo. To make things a bit easier for the player there is an infinite ammo toggle option as well as setting the player health, bullet damage and timer for the game.
+
+### What was the hardest part of the game to get working in Unreal
+The hardest part of the game to get working in unreal were the animations. The zombie animations were a challenged because I had to learn how to use the animation state machine and create new states and link up states already made by the template that were already created. The main challenge with the zombie animation was creating its attack animation. This is because I wanted to to smoothly transition from the running to the attack so I had to use a blendspace to allow the running to carry on while the top half plays the attack animation. One part working with animation that I didnt have luck in was working with the player animation. Originally I used the First Person Template. However, about half way through my project I was restricted with the animations I could use. This is due to the first person template only using arms for the mesh, whereas most of the animation online use the third person character. 
+
+### What is the most interesting part of the game 
+There are 3 intertesting parts to my game. The visuals, making your way through the maze and the easter egg at the end. The first interesting thing are the visuals. This is because it is set at nightime in a forest. This makes it fit really nicely as a zombie maze games. The nightime setting makes the game feels a lot more spooky and it restricts the players vision of the zombies which adds a bit more "spook". The next part is navigating your way through the maze. This is interesting because there is only one path through the maze so one wrong turn and the player could end up being swarmed by zombies. However, if the player finds it too hard, they can change their health, bullet damage, or timer to complete the maze. The final interesting part is the easter egg at the end of the maze. This is a little fun thing I added which fits nicely with the title of the game and it will give the player a good laugh and reward them for winning the game.  
